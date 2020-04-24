@@ -25,5 +25,9 @@ static unsigned int lineheight = 24;         /* -h option; minimum height of a m
  */
 static const char worddelimiters[] = " ";
 
+/*
+ * Use prefix matching by default; can be inverted with the -x flag.
+ */
+static int use_prefix = 1;
 /* Size of the window border */
 static unsigned int border_width = 0;
