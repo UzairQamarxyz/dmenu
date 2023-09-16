@@ -746,7 +746,7 @@ resource_load(XrmDatabase db, char *name, enum resource_type rtype, void *dst)
 	char fullname[256];
 	char *type;
 	XrmValue ret;
-	snprintf(fullname, sizeof(fullname), "%s.%s", "dmenu", name);
+	snprintf(fullname, sizeof(fullname), "%s.%s", "dwm", name);
 	fullname[sizeof(fullname) - 1] = '\0';
 	XrmGetResource(db, fullname, "*", &type, &ret);
 	if (!(ret.addr == NULL || strncmp("String", type, 64)))
