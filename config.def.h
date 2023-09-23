@@ -3,7 +3,7 @@
 
 static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 1;                    /* -c option; centers dmenu on screen */
-static int min_width = 700;                    /* minimum width when centered */
+static int min_width = 600;                    /* minimum width when centered */
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 static char font[] = "monospace:size=10";
 static const char *fonts[] = {
